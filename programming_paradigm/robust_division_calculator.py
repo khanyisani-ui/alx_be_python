@@ -10,4 +10,4 @@ def safe_divide(numerator, denominator):
         return f"The result of dividing {num} by {denom} is {result}"
     
     except ValueError:
-        return "Error: Non-numeric input. Please enter valid numbers."
+        return "Error: Please enter numeric values only."
