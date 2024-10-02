@@ -4,7 +4,7 @@ def safe_divide(numerator, denominator):
         denom = float(denominator)
         
         if denom == 0:
-            return "Error: Division by zero is not allowed."
+            return "Error: Cannot divide by zero."
         
         result = num / denom
         return f"The result of dividing {num} by {denom} is {result}"
